@@ -18,35 +18,17 @@ struct ContentView: View {
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
 
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-
-            Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
-                .toggleStyle(.button)
-                .padding(.top, 50)
-        }
-        .padding()
-        .onChange(of: showImmersiveSpace) { _, newValue in
+        VStack(alignment: .leading, content: {
+            Text("Welcome to Dalle Vision Painter!")
+                .font(.extraLargeTitle2)
+        })
+        .padding(50)
+        .glassBackgroundEffect()
+        .onAppear(perform: {
             Task {
-                if newValue {
-                    switch await openImmersiveSpace(id: "ImmersiveSpace") {
-                    case .opened:
-                        immersiveSpaceIsShown = true
-                    case .error, .userCancelled:
-                        fallthrough
-                    @unknown default:
-                        immersiveSpaceIsShown = false
-                        showImmersiveSpace = false
-                    }
-                } else if immersiveSpaceIsShown {
-                    await dismissImmersiveSpace()
-                    immersiveSpaceIsShown = false
-                }
+                await openImmersiveSpace(id: "ImmersiveSpace")
             }
-        }
+        })
     }
 }
 

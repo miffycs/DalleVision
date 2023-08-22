@@ -14,6 +14,7 @@
 		F24A375D2A953CF100F62F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24A375C2A953CF100F62F69 /* Assets.xcassets */; };
 		F24A37602A953CF100F62F69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24A375F2A953CF100F62F69 /* Preview Assets.xcassets */; };
 		F24A376A2A953CF100F62F69 /* DalleVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A37692A953CF100F62F69 /* DalleVisionTests.swift */; };
+		F24A37742A953FAD00F62F69 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A37732A953FAD00F62F69 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F24A375F2A953CF100F62F69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F24A37652A953CF100F62F69 /* DalleVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DalleVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24A37692A953CF100F62F69 /* DalleVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalleVisionTests.swift; sourceTree = "<group>"; };
+		F24A37732A953FAD00F62F69 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				F24A375A2A953CEE00F62F69 /* ImmersiveView.swift */,
 				F24A375C2A953CF100F62F69 /* Assets.xcassets */,
 				F24A375E2A953CF100F62F69 /* Preview Content */,
+				F24A37732A953FAD00F62F69 /* ViewModel.swift */,
 			);
 			path = DalleVision;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				F24A37592A953CEE00F62F69 /* ContentView.swift in Sources */,
 				F24A37572A953CEE00F62F69 /* DalleVisionApp.swift in Sources */,
+				F24A37742A953FAD00F62F69 /* ViewModel.swift in Sources */,
 				F24A375B2A953CEE00F62F69 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
