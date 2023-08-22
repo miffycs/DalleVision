@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		F24A37602A953CF100F62F69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24A375F2A953CF100F62F69 /* Preview Assets.xcassets */; };
 		F24A376A2A953CF100F62F69 /* DalleVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A37692A953CF100F62F69 /* DalleVisionTests.swift */; };
 		F24A37742A953FAD00F62F69 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A37732A953FAD00F62F69 /* ViewModel.swift */; };
+		F24A377A2A9546D300F62F69 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = F24A37792A9546D300F62F69 /* RealityKitContent */; };
+		F24A377F2A9549F600F62F69 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = F24A377E2A9549F600F62F69 /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		F24A374F2A953CEE00F62F69 /* DalleVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DalleVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F24A37532A953CEE00F62F69 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		F24A37562A953CEE00F62F69 /* DalleVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalleVisionApp.swift; sourceTree = "<group>"; };
 		F24A37582A953CEE00F62F69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F24A375A2A953CEE00F62F69 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
@@ -45,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24A377A2A9546D300F62F69 /* RealityKitContent in Frameworks */,
+				F24A377F2A9549F600F62F69 /* RealityKitContent in Frameworks */,
 				F24A37552A953CEE00F62F69 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				F24A37512A953CEE00F62F69 /* DalleVision */,
-				F24A37522A953CEE00F62F69 /* Packages */,
 				F24A37682A953CF100F62F69 /* DalleVisionTests */,
 				F24A37502A953CEE00F62F69 /* Products */,
 			);
@@ -81,22 +83,14 @@
 		F24A37512A953CEE00F62F69 /* DalleVision */ = {
 			isa = PBXGroup;
 			children = (
+				F24A37732A953FAD00F62F69 /* ViewModel.swift */,
 				F24A37562A953CEE00F62F69 /* DalleVisionApp.swift */,
 				F24A37582A953CEE00F62F69 /* ContentView.swift */,
 				F24A375A2A953CEE00F62F69 /* ImmersiveView.swift */,
 				F24A375C2A953CF100F62F69 /* Assets.xcassets */,
 				F24A375E2A953CF100F62F69 /* Preview Content */,
-				F24A37732A953FAD00F62F69 /* ViewModel.swift */,
 			);
 			path = DalleVision;
-			sourceTree = "<group>";
-		};
-		F24A37522A953CEE00F62F69 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				F24A37532A953CEE00F62F69 /* RealityKitContent */,
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 		F24A375E2A953CF100F62F69 /* Preview Content */ = {
@@ -133,6 +127,8 @@
 			name = DalleVision;
 			packageProductDependencies = (
 				F24A37542A953CEE00F62F69 /* RealityKitContent */,
+				F24A37792A9546D300F62F69 /* RealityKitContent */,
+				F24A377E2A9549F600F62F69 /* RealityKitContent */,
 			);
 			productName = DalleVision;
 			productReference = F24A374F2A953CEE00F62F69 /* DalleVision.app */;
@@ -184,6 +180,9 @@
 				Base,
 			);
 			mainGroup = F24A37462A953CEE00F62F69;
+			packageReferences = (
+				F24A37782A9546D300F62F69 /* XCLocalSwiftPackageReference "../../Downloads/GenerativeDoodleArt_VisionOS-main/Packages/RealityKitContent" */,
+			);
 			productRefGroup = F24A37502A953CEE00F62F69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -489,8 +488,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		F24A37782A9546D300F62F69 /* XCLocalSwiftPackageReference "../../Downloads/GenerativeDoodleArt_VisionOS-main/Packages/RealityKitContent" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/GenerativeDoodleArt_VisionOS-main/Packages/RealityKitContent";
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		F24A37542A953CEE00F62F69 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		F24A37792A9546D300F62F69 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		F24A377E2A9549F600F62F69 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
