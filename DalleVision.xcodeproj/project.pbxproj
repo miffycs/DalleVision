@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F24A37552A953CEE00F62F69 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = F24A37542A953CEE00F62F69 /* RealityKitContent */; };
+		F24A37572A953CEE00F62F69 /* DalleVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A37562A953CEE00F62F69 /* DalleVisionApp.swift */; };
+		F24A37592A953CEE00F62F69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A37582A953CEE00F62F69 /* ContentView.swift */; };
+		F24A375B2A953CEE00F62F69 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A375A2A953CEE00F62F69 /* ImmersiveView.swift */; };
+		F24A375D2A953CF100F62F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24A375C2A953CF100F62F69 /* Assets.xcassets */; };
+		F24A37602A953CF100F62F69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24A375F2A953CF100F62F69 /* Preview Assets.xcassets */; };
+		F24A376A2A953CF100F62F69 /* DalleVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A37692A953CF100F62F69 /* DalleVisionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F24A37662A953CF100F62F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24A37472A953CEE00F62F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24A374E2A953CEE00F62F69;
+			remoteInfo = DalleVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F24A374F2A953CEE00F62F69 /* DalleVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DalleVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24A37532A953CEE00F62F69 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		F24A37562A953CEE00F62F69 /* DalleVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalleVisionApp.swift; sourceTree = "<group>"; };
+		F24A37582A953CEE00F62F69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F24A375A2A953CEE00F62F69 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		F24A375C2A953CF100F62F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F24A375F2A953CF100F62F69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F24A37652A953CF100F62F69 /* DalleVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DalleVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24A37692A953CF100F62F69 /* DalleVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalleVisionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24A374C2A953CEE00F62F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24A37552A953CEE00F62F69 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24A37622A953CF100F62F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24A37462A953CEE00F62F69 = {
+			isa = PBXGroup;
+			children = (
+				F24A37512A953CEE00F62F69 /* DalleVision */,
+				F24A37522A953CEE00F62F69 /* Packages */,
+				F24A37682A953CF100F62F69 /* DalleVisionTests */,
+				F24A37502A953CEE00F62F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24A37502A953CEE00F62F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24A374F2A953CEE00F62F69 /* DalleVision.app */,
+				F24A37652A953CF100F62F69 /* DalleVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24A37512A953CEE00F62F69 /* DalleVision */ = {
+			isa = PBXGroup;
+			children = (
+				F24A37562A953CEE00F62F69 /* DalleVisionApp.swift */,
+				F24A37582A953CEE00F62F69 /* ContentView.swift */,
+				F24A375A2A953CEE00F62F69 /* ImmersiveView.swift */,
+				F24A375C2A953CF100F62F69 /* Assets.xcassets */,
+				F24A375E2A953CF100F62F69 /* Preview Content */,
+			);
+			path = DalleVision;
+			sourceTree = "<group>";
+		};
+		F24A37522A953CEE00F62F69 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F24A37532A953CEE00F62F69 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		F24A375E2A953CF100F62F69 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F24A375F2A953CF100F62F69 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F24A37682A953CF100F62F69 /* DalleVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F24A37692A953CF100F62F69 /* DalleVisionTests.swift */,
+			);
+			path = DalleVisionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24A374E2A953CEE00F62F69 /* DalleVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24A376D2A953CF100F62F69 /* Build configuration list for PBXNativeTarget "DalleVision" */;
+			buildPhases = (
+				F24A374B2A953CEE00F62F69 /* Sources */,
+				F24A374C2A953CEE00F62F69 /* Frameworks */,
+				F24A374D2A953CEE00F62F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DalleVision;
+			packageProductDependencies = (
+				F24A37542A953CEE00F62F69 /* RealityKitContent */,
+			);
+			productName = DalleVision;
+			productReference = F24A374F2A953CEE00F62F69 /* DalleVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F24A37642A953CF100F62F69 /* DalleVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24A37702A953CF100F62F69 /* Build configuration list for PBXNativeTarget "DalleVisionTests" */;
+			buildPhases = (
+				F24A37612A953CF100F62F69 /* Sources */,
+				F24A37622A953CF100F62F69 /* Frameworks */,
+				F24A37632A953CF100F62F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24A37672A953CF100F62F69 /* PBXTargetDependency */,
+			);
+			name = DalleVisionTests;
+			productName = DalleVisionTests;
+			productReference = F24A37652A953CF100F62F69 /* DalleVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24A37472A953CEE00F62F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F24A374E2A953CEE00F62F69 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F24A37642A953CF100F62F69 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F24A374E2A953CEE00F62F69;
+					};
+				};
+			};
+			buildConfigurationList = F24A374A2A953CEE00F62F69 /* Build configuration list for PBXProject "DalleVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F24A37462A953CEE00F62F69;
+			productRefGroup = F24A37502A953CEE00F62F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24A374E2A953CEE00F62F69 /* DalleVision */,
+				F24A37642A953CF100F62F69 /* DalleVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24A374D2A953CEE00F62F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24A37602A953CF100F62F69 /* Preview Assets.xcassets in Resources */,
+				F24A375D2A953CF100F62F69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24A37632A953CF100F62F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24A374B2A953CEE00F62F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24A37592A953CEE00F62F69 /* ContentView.swift in Sources */,
+				F24A37572A953CEE00F62F69 /* DalleVisionApp.swift in Sources */,
+				F24A375B2A953CEE00F62F69 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24A37612A953CF100F62F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24A376A2A953CF100F62F69 /* DalleVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F24A37672A953CF100F62F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24A374E2A953CEE00F62F69 /* DalleVision */;
+			targetProxy = F24A37662A953CF100F62F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F24A376B2A953CF100F62F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		F24A376C2A953CF100F62F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		F24A376E2A953CF100F62F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DalleVision/Preview Content\"";
+				DEVELOPMENT_TEAM = DR9RNFND23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miffyc.DalleVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		F24A376F2A953CF100F62F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DalleVision/Preview Content\"";
+				DEVELOPMENT_TEAM = DR9RNFND23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miffyc.DalleVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		F24A37712A953CF100F62F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9RNFND23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miffyc.DalleVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DalleVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DalleVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		F24A37722A953CF100F62F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9RNFND23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miffyc.DalleVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DalleVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DalleVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24A374A2A953CEE00F62F69 /* Build configuration list for PBXProject "DalleVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24A376B2A953CF100F62F69 /* Debug */,
+				F24A376C2A953CF100F62F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24A376D2A953CF100F62F69 /* Build configuration list for PBXNativeTarget "DalleVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24A376E2A953CF100F62F69 /* Debug */,
+				F24A376F2A953CF100F62F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24A37702A953CF100F62F69 /* Build configuration list for PBXNativeTarget "DalleVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24A37712A953CF100F62F69 /* Debug */,
+				F24A37722A953CF100F62F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F24A37542A953CEE00F62F69 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F24A37472A953CEE00F62F69 /* Project object */;
+}
